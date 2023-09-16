@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+<main>
+<table>
+  <thead>
+    <tr>
+      <th colspan="7" id="title"></th>
+    </tr>
+    <tr>
+      <td>日</td>
+      <td>月</td>
+      <td>火</td>
+      <td>水</td>
+      <td>木</td>
+      <td>金</td>
+      <td>土</td>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <!-- scriptで挿入 -->
+  </tbody>
+</table>
+
+<div class="clock">
+  <h1 id="time"></h1>
+  <h2 id="comment"></h2> 
+</div>
+</main>
+
+<footer>
+  <label> <input type="radio" name="colors">pink</label>
+  <label> <input type="radio" name="colors">skyblue</label>
+  <label> <input type="radio" name="colors">beige</label>
+  <label> <input type="radio" name="colors">default</label>
+  <input type="button" value="背景色を変更" id="change">
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
